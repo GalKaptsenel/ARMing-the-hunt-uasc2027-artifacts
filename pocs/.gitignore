@@ -1,0 +1,24 @@
+# Compiled userspace binaries
+rsa_leak
+smc_bench
+canary_leak_blind
+*.elf
+
+# Object files and kernel-module build products
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+.*.cmd
+*.symvers
+modules.order
+.tmp_versions/
+
+# Core dumps
+core
+core.*
+/cross_boundary/cross_boundary
+/cross_boundary/pac_victim
+/cross_boundary/guest.elf

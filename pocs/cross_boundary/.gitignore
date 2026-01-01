@@ -1,0 +1,15 @@
+/cross_boundary
+/pac_victim
+/guest.elf
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+.tmp_versions/
+modules.order
+Module.symvers
+core.*
+BUILD_LOG.md
